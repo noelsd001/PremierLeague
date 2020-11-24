@@ -1,0 +1,17 @@
+#detail {
+    text-align: center;
+}
+
+.nav-wrapper {
+    background-color: #042f66;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  nav {
+      background-color :#042f66;
+  }
+
+  h4 {
+      font-family : Helvetica;
+  }

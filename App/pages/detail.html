@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="manifest" href="../manifest.json">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo" id="logo-container">App</a>
+            <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+            <ul class="topnav right hide-on-med-and-down">
+                <li><a class="waves-effect " href="/">Home</a></li>
+                <li><a class="waves-effect " href="favorite.html">Favorite</a></li>
+            </ul>
+            <ul class="sidenav" id="nav-mobile">
+                <li><a class="waves-effect " href="/">Home</a></li>
+                <li><a class="waves-effect " href="favorite.html">Favorite</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="detail"></div>
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large">
+            <i class="large material-icons" id="save">bookmark</i>
+        </a>
+    </div>
+
+    <script src="../js/materialize.min.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/api.js"></script>
+    <script src="../js/idb.js"></script>
+    <script src="../js/db.js"></script>
+    <script src="detail.js"></script>
+</body>
+</html>
